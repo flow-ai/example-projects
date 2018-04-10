@@ -1,1 +1,627 @@
-{"brains":[{"brain":{"brainName":"flowai","title":"Untitled Brain","description":"Flow.ai","language":"en","isDefault":true,"training":{"entityHash":"d4cbb29","intentHash":"df5ef36e"},"pauseTimeout":15,"threshold":3,"brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5"},"flows":[{"flowId":"da48bda2-acc2-4f09-bd01-2f34bb0a422b","disabled":false,"title":"Unknown","steps":[{"intent":{"intentId":"system.noise"},"actions":[{"actionId":"4652447d-7d6b-4d94-84c1-aba071193be3"}],"contexts":[],"title":"","type":"UNKNOWN","stepId":"562f8f39-78a0-4b7d-a2ff-04ec0405d036"}],"group":"Default"},{"flowId":"fe668a72-7b5a-4399-ad34-8d15c36dc2a1","disabled":false,"title":"Menu","steps":[{"intent":null,"actions":[{"actionId":"ce5d6357-267b-4464-8a36-93c4ba072cc7"}],"contexts":[],"title":"launch","type":"EVENT","stepId":"518ec9ae-7b0a-4775-8c5f-100587d2db84"}],"group":"Default"},{"flowId":"bb4594c5-9d39-4d5f-8bab-6cc871b01262","disabled":false,"title":"Rules","steps":[{"intent":{"intentId":"4b31f5d7-931f-4077-9655-2e615c06e0b8"},"actions":[{"actionId":"4aed9424-b825-44d6-8d16-4801ab071d3a"},{"actionId":"a8ed9c15-2724-4bff-a6df-da1dbfb42af2"}],"contexts":["b27831de-9c58-43c4-8a29-4c79bf28bbe8"],"title":"yes","type":"INTENT","stepId":"dee29ed1-c671-4f65-a14b-f9f3e135f1be"},{"intent":{"intentId":"428a5ec8-1c63-4644-bf6f-846fff079192"},"actions":[{"actionId":"1b6551a9-77d1-458b-a4c3-4c63493913c4"},{"actionId":"c33c1f32-28c9-40d1-a1ec-67cc6a21949b"}],"contexts":["b27831de-9c58-43c4-8a29-4c79bf28bbe8"],"title":"no","type":"INTENT","stepId":"42976ab6-e373-44db-acec-0915d7796bbc"},{"intent":{"intentId":"757b41bf-dcd6-42c5-9c49-7ca6f3ec35fc"},"actions":[{"actionId":"94680136-f4d7-4279-af88-ecd8da476b25"},{"actionId":"c076ccb1-b1bf-46e8-9c74-4885bb935e09"},{"actionId":"fe48b39b-1336-4cd4-a5d8-bed636f7f013"},{"actionId":"3542603d-544b-495a-a772-7e90477032ce"}],"contexts":[],"title":"explain","type":"INTENT","stepId":"b27831de-9c58-43c4-8a29-4c79bf28bbe8"}],"group":"Default"},{"flowId":"2c31b56a-9b18-4a27-8ee8-085a474096a4","disabled":false,"title":"Play","steps":[{"intent":{"intentId":"2423c936-0653-45e0-b29f-8aedd0fcc33e"},"actions":[{"actionId":"000019ee-09f1-40b1-b097-e8b8667afe3e"}],"contexts":[],"title":"start the game","type":"INTENT","stepId":"364b0f72-c76d-4ee9-a5d4-93efb350c65d"}],"group":"Default"},{"flowId":"53379b28-702a-4248-bbe5-bd3a53147a5f","disabled":false,"title":"Game","steps":[{"intent":null,"actions":[{"actionId":"7abef461-d30b-48e0-92e4-dda130c06958"},{"actionId":"7bd3e26b-fd65-4933-b4ee-e5993c40e405"},{"actionId":"09ed828e-222e-4fd3-abcf-1860d9022ac8"},{"actionId":"694e87b5-1b85-49b8-be06-28ca542e0cf2"},{"actionId":"0aa28c11-60a5-4f02-812f-09d05e963f3e"},{"actionId":"060a5700-7219-4a9b-8e20-8b3faf2666e4"},{"actionId":"f8cb80c8-943e-4300-b046-32d96eb592e1"}],"contexts":[],"title":"Game","type":"EVENT","stepId":"04f5c0cd-37c6-4027-b2eb-553d05a93aa4"}],"group":"Default"},{"flowId":"dd8b61c0-687b-4d34-892d-30177d2d93b6","disabled":false,"title":"Howl","steps":[{"intent":{"intentId":"02f9e179-3044-43c6-b3e1-a1b3dcff4a60"},"actions":[{"actionId":"d0473869-121d-4b27-b68b-404a33db747e"}],"contexts":[],"title":"howl for me","type":"INTENT","stepId":"c2defa40-ad2d-4bf7-a710-c77edba7bb3d"}],"group":"Default"}],"entities":[],"intents":[{"intentId":"02f9e179-3044-43c6-b3e1-a1b3dcff4a60","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"Howl","examples":[{"query":"howl for me","entities":[]},{"query":"howl","entities":[]},{"query":"howl for me baby","entities":[]},{"query":"give me a howl","entities":[]},{"query":"holler for me","entities":[]},{"query":"make some noise","entities":[]},{"query":"what sound does a werewolf make","entities":[]},{"query":"cry wolf","entities":[]},{"query":"cry","entities":[]}],"accuracy":38.46},{"intentId":"4b31f5d7-931f-4077-9655-2e615c06e0b8","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"Untitled intent 1","examples":[{"query":"yes","entities":[]}],"accuracy":7.69},{"intentId":"428a5ec8-1c63-4644-bf6f-846fff079192","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"Untitled intent 1","examples":[{"query":"no","entities":[]}],"accuracy":7.69},{"intentId":"757b41bf-dcd6-42c5-9c49-7ca6f3ec35fc","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"explain","examples":[{"query":"explain","entities":[]},{"query":"explain the game","entities":[]},{"query":"tell me the rules","entities":[]},{"query":"how does it work?","entities":[]},{"query":"what is werewolf","entities":[]},{"query":"how does this work","entities":[]},{"query":"i dont understand the rules","entities":[]},{"query":"how does this game work","entities":[]},{"query":"what are the game rules","entities":[]},{"query":"tell me about the rules please","entities":[]},{"query":"help","entities":[]},{"query":"to help","entities":[]}],"accuracy":38.46},{"intentId":"2423c936-0653-45e0-b29f-8aedd0fcc33e","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"new game","examples":[{"query":"start game","entities":[]},{"query":"play the game","entities":[]},{"query":"start","entities":[]},{"query":"play","entities":[]},{"query":"new game","entities":[]},{"query":"begin a game","entities":[]},{"query":"start right away","entities":[]},{"query":"I want to start right away","entities":[]},{"query":"I d like to play the game","entities":[]},{"query":"no start the game","entities":[]},{"query":"yes start the game","entities":[]},{"query":"just begin already","entities":[]},{"query":"new round","entities":[]},{"query":"for new round","entities":[]},{"query":"start a new round","entities":[]}],"accuracy":46.15},{"intentId":"system.noise","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","title":"unknown","examples":[{"query":"this often tends to get me out of track and i easily loose the story line","entities":[]},{"query":"therefore i often have to force myself to ignore the words i do n't understand and concentrate on the story","entities":[]},{"query":"i sometimes have some problems to get started with a book , but once i have got into the story i think i am a pretty fast reader","entities":[]},{"query":"Alligators can't climb walls, that's clearly a lizard","entities":[]},{"query":"You know what they say about jet fuel","entities":[]},{"query":"Dingle as a first level boss, without any speed boosts, is worse than Haunt","entities":[]},{"query":"Careful, oil leaks out of plastic sometimes","entities":[]},{"query":"Why can't we have a place with neither :'(","entities":[]},{"query":"my dog would still be there, stick in mouth?","entities":[]},{"query":"For the longest time I actually thought his real name was Ron Swanson...","entities":[]},{"query":"They should make a video called \"let's drink the stuff under the sink\"","entities":[]},{"query":"If it were actually \"up north\" it wouldn't be such a joke","entities":[]},{"query":"Why wage war when you can wage flowers?","entities":[]},{"query":"Liar! I drew the original. On paper, of course","entities":[]},{"query":"To be fair, ballpoint pens didn't exist yet","entities":[]}],"accuracy":46.15}],"actions":[{"actionId":"000019ee-09f1-40b1-b097-e8b8667afe3e","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TRIGGER","payload":{"eventName":"Game"}},{"actionId":"060a5700-7219-4a9b-8e20-8b3faf2666e4","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["Troublemaker, close your eyes."],"fallback":"Troublemaker, close your eyes.<break time=\"2s\"/> "}},{"actionId":"09ed828e-222e-4fd3-abcf-1860d9022ac8","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["Werewolves, close your eyes. Seer, wake up.\nYou may look at another player’s card or two\nof the center cards."],"quickReplies":[],"fallback":"Werewolves, close your eyes. <break time=\"2s\"/> Seer, wake up.\nYou may look at another player’s card or two\nof the center cards.\n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_01.mp3'/>\n<break time=\"3s\"/>\n\n"}},{"actionId":"0aa28c11-60a5-4f02-812f-09d05e963f3e","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["Robber, close your eyes. Troublemaker,\nwake up. You may exchange cards between\ntwo other players."],"fallback":"Robber, close your eyes. <break time=\"2s\"/>Troublemaker,\nwake up. You may exchange cards between\ntwo other players. \n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3'/>\n<break time=\"3s\"/>"}},{"actionId":"1b6551a9-77d1-458b-a4c3-4c63493913c4","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["All right, just call me again when you are ready!"],"quickReplies":[]}},{"actionId":"2bd4251e-2095-467b-9515-5022180b3874","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"AUDIO","payload":{"response":{"delay":0,"payload":{"url":"https://www.music-note.jp/bgm/mp3/b_horror.mp3","title":"ambient"},"type":"audio"},"fallback":"ambient"}},{"actionId":"340fa14d-ceb8-4c20-bcff-132a4eea1c6b","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TRIGGER","payload":{"eventName":"Game"}},{"actionId":"3542603d-544b-495a-a772-7e90477032ce","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["I will be your announcer. Are you ready to start?"],"quickReplies":[]}},{"actionId":"4652447d-7d6b-4d94-84c1-aba071193be3","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["I don't know that one!"]}},{"actionId":"4aed9424-b825-44d6-8d16-4801ab071d3a","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["Okay! let's start then!"],"quickReplies":[]}},{"actionId":"694e87b5-1b85-49b8-be06-28ca542e0cf2","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["Seer, close your eyes. Robber, wake up.\nYou may exchange your card with another\nplayer’s card, and then view your new card."],"fallback":"Seer, close your eyes. <break time=\"2s\"/> Robber, wake up.\nYou may exchange your card with another\nplayer’s card, and then view your new card.\n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3'/>\n<break time=\"3s\"/>"}},{"actionId":"7abef461-d30b-48e0-92e4-dda130c06958","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["Everyone, close your eyes."],"quickReplies":[],"fallback":"Everyone, close your eyes.<break time=\"2s\"/>"}},{"actionId":"7bd3e26b-fd65-4933-b4ee-e5993c40e405","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"texts":["Werewolves, now wake up and look for the  other\nwerewolves."],"quickReplies":[],"delay":0,"fallback":"Werewolves, now wake up and look for the other werewolves.\n<break time=\"5s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_wolf_young_howl_01.mp3'/>\n\n"}},{"actionId":"94680136-f4d7-4279-af88-ecd8da476b25","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"fallback":"In <emphasis>One Night Ultimate Werewolf</emphasis>, each player takes on the role of a Villager, a Werewolf, or a special character.","texts":["In One Night Ultimate Werewolf, each player takes on the role of a Villager, a Werewolf, or a special character."],"quickReplies":[],"delay":0}},{"actionId":"a72d2c65-a780-4b4a-9dea-d1aff51681ba","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"AUDIO","payload":{"fallback":"ambient 2","response":{"type":"audio","payload":{"title":"ambient 2","url":"https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3"},"delay":0}}},{"actionId":"a8ed9c15-2724-4bff-a6df-da1dbfb42af2","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TRIGGER","payload":{"eventName":"Game"}},{"actionId":"c076ccb1-b1bf-46e8-9c74-4885bb935e09","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"fallback":"It’s <emphasis level=\"strong\">your</emphasis> job to figure out who the Werewolves are and to kill at least one of them in order to win.","quickReplies":[],"texts":["It’s your job to figure out who the Werewolves are and to kill at least one of them in order to win."]}},{"actionId":"c33c1f32-28c9-40d1-a1ec-67cc6a21949b","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"RESET","payload":{"behaviour":"RESET_ALL","params":[]}},{"actionId":"c6729809-d08a-41ee-8411-2ba2a24c8692","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"AUDIO","payload":{"response":{"delay":0,"payload":{"url":"https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3","title":"Example title"},"type":"audio"},"fallback":"Example title"}},{"actionId":"c879f968-f2c5-47cb-b607-5ad337cb434d","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"AUDIO","payload":{"fallback":"ambient","response":{"type":"audio","payload":{"title":"ambient","url":"https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_01.mp3"},"delay":0}}},{"actionId":"ce5d6357-267b-4464-8a36-93c4ba072cc7","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"fallback":"Welcome to <emphasis>One Night Ultimate Werewolf</emphasis> for Alexa. Would you like to hear the rules or do you want to start right away?","texts":["Welcome to <emphasis>One Night Ultimate Werewolf</emphasis> for Alexa. Would you like to hear the rules or do you want to start right away?"],"quickReplies":[]}},{"actionId":"d0473869-121d-4b27-b68b-404a33db747e","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["aw aw aw awoooo"]}},{"actionId":"ed723b7a-0a98-42be-9cc3-8a040fb1249a","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TRIGGER","payload":{"eventName":"explain"}},{"actionId":"f8cb80c8-943e-4300-b046-32d96eb592e1","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["Everyone, Wake up!? Now, discuss among yourselves who the werewolves are. After 2 minutes, everyone picks their werewolf. Good luck!"]}},{"actionId":"fe48b39b-1336-4cd4-a5d8-bed636f7f013","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["Unless you’ve become a Werewolf yourself!"]}},{"actionId":"ffe6d320-8706-4124-a1bd-81307d118d0e","brainId":"3bebeb5d-e4d5-4206-825e-7d1ac23190b5","type":"TEXT","payload":{"quickReplies":[],"texts":["blub"]}}]}],"integrations":[{"integrationId":"0cec8e77-0944-45ae-8271-48b9445857d3","integrationName":"function","actionName":"Takeover","cloudCode":"(function() {\n  // Notify dashboard users to take over\n  // the conversation\n  toolbelt.takeover()\n})","title":"Takeover","description":"Cloud code","eventTypes":null},{"integrationId":"492e02c1-a7bc-4737-a014-532e2a2966eb","integrationName":"function","actionName":"Pause Bot","cloudCode":"(function() {\n  // Disable the bot for a number of minutes\n  // check the brain settings\n  toolbelt.pauseBot()\n})","title":"Pause Bot","description":"Cloud code","eventTypes":null},{"integrationId":"7ac539a6-7b8b-4f16-8dad-23b345f848f2","integrationName":"function","actionName":"Send takeover e-mail","cloudCode":"(function() {\n  // Send an e-mail to notify a conversation\n  // needs to be taken over\n  toolbelt.email({\n    to: 'sander+demo@flow.ai',\n    template: 'takeover'\n  })\n})","title":"Send takeover e-mail","description":"Cloud code","eventTypes":null}]}
+{
+	"brains": [{
+		"brain": {
+			"brainName": "flowai",
+			"title": "Untitled Brain",
+			"description": "Flow.ai",
+			"language": "en",
+			"isDefault": true,
+			"training": {
+				"entityHash": "d4cbb29",
+				"intentHash": "df5ef36e"
+			},
+			"pauseTimeout": 15,
+			"threshold": 3,
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5"
+		},
+		"flows": [{
+			"flowId": "da48bda2-acc2-4f09-bd01-2f34bb0a422b",
+			"disabled": false,
+			"title": "Unknown",
+			"steps": [{
+				"intent": {
+					"intentId": "system.noise"
+				},
+				"actions": [{
+					"actionId": "4652447d-7d6b-4d94-84c1-aba071193be3"
+				}],
+				"contexts": [],
+				"title": "",
+				"type": "UNKNOWN",
+				"stepId": "562f8f39-78a0-4b7d-a2ff-04ec0405d036"
+			}],
+			"group": "Default"
+		}, {
+			"flowId": "fe668a72-7b5a-4399-ad34-8d15c36dc2a1",
+			"disabled": false,
+			"title": "Menu",
+			"steps": [{
+				"intent": null,
+				"actions": [{
+					"actionId": "ce5d6357-267b-4464-8a36-93c4ba072cc7"
+				}],
+				"contexts": [],
+				"title": "launch",
+				"type": "EVENT",
+				"stepId": "518ec9ae-7b0a-4775-8c5f-100587d2db84"
+			}],
+			"group": "Default"
+		}, {
+			"flowId": "bb4594c5-9d39-4d5f-8bab-6cc871b01262",
+			"disabled": false,
+			"title": "Rules",
+			"steps": [{
+				"intent": {
+					"intentId": "4b31f5d7-931f-4077-9655-2e615c06e0b8"
+				},
+				"actions": [{
+					"actionId": "4aed9424-b825-44d6-8d16-4801ab071d3a"
+				}, {
+					"actionId": "a8ed9c15-2724-4bff-a6df-da1dbfb42af2"
+				}],
+				"contexts": ["b27831de-9c58-43c4-8a29-4c79bf28bbe8"],
+				"title": "yes",
+				"type": "INTENT",
+				"stepId": "dee29ed1-c671-4f65-a14b-f9f3e135f1be"
+			}, {
+				"intent": {
+					"intentId": "428a5ec8-1c63-4644-bf6f-846fff079192"
+				},
+				"actions": [{
+					"actionId": "1b6551a9-77d1-458b-a4c3-4c63493913c4"
+				}, {
+					"actionId": "c33c1f32-28c9-40d1-a1ec-67cc6a21949b"
+				}],
+				"contexts": ["b27831de-9c58-43c4-8a29-4c79bf28bbe8"],
+				"title": "no",
+				"type": "INTENT",
+				"stepId": "42976ab6-e373-44db-acec-0915d7796bbc"
+			}, {
+				"intent": {
+					"intentId": "757b41bf-dcd6-42c5-9c49-7ca6f3ec35fc"
+				},
+				"actions": [{
+					"actionId": "94680136-f4d7-4279-af88-ecd8da476b25"
+				}, {
+					"actionId": "c076ccb1-b1bf-46e8-9c74-4885bb935e09"
+				}, {
+					"actionId": "fe48b39b-1336-4cd4-a5d8-bed636f7f013"
+				}, {
+					"actionId": "3542603d-544b-495a-a772-7e90477032ce"
+				}],
+				"contexts": [],
+				"title": "explain",
+				"type": "INTENT",
+				"stepId": "b27831de-9c58-43c4-8a29-4c79bf28bbe8"
+			}],
+			"group": "Default"
+		}, {
+			"flowId": "2c31b56a-9b18-4a27-8ee8-085a474096a4",
+			"disabled": false,
+			"title": "Play",
+			"steps": [{
+				"intent": {
+					"intentId": "2423c936-0653-45e0-b29f-8aedd0fcc33e"
+				},
+				"actions": [{
+					"actionId": "000019ee-09f1-40b1-b097-e8b8667afe3e"
+				}],
+				"contexts": [],
+				"title": "start the game",
+				"type": "INTENT",
+				"stepId": "364b0f72-c76d-4ee9-a5d4-93efb350c65d"
+			}],
+			"group": "Default"
+		}, {
+			"flowId": "53379b28-702a-4248-bbe5-bd3a53147a5f",
+			"disabled": false,
+			"title": "Game",
+			"steps": [{
+				"intent": null,
+				"actions": [{
+					"actionId": "7abef461-d30b-48e0-92e4-dda130c06958"
+				}, {
+					"actionId": "7bd3e26b-fd65-4933-b4ee-e5993c40e405"
+				}, {
+					"actionId": "09ed828e-222e-4fd3-abcf-1860d9022ac8"
+				}, {
+					"actionId": "694e87b5-1b85-49b8-be06-28ca542e0cf2"
+				}, {
+					"actionId": "0aa28c11-60a5-4f02-812f-09d05e963f3e"
+				}, {
+					"actionId": "060a5700-7219-4a9b-8e20-8b3faf2666e4"
+				}, {
+					"actionId": "f8cb80c8-943e-4300-b046-32d96eb592e1"
+				}],
+				"contexts": [],
+				"title": "Game",
+				"type": "EVENT",
+				"stepId": "04f5c0cd-37c6-4027-b2eb-553d05a93aa4"
+			}],
+			"group": "Default"
+		}, {
+			"flowId": "dd8b61c0-687b-4d34-892d-30177d2d93b6",
+			"disabled": false,
+			"title": "Howl",
+			"steps": [{
+				"intent": {
+					"intentId": "02f9e179-3044-43c6-b3e1-a1b3dcff4a60"
+				},
+				"actions": [{
+					"actionId": "d0473869-121d-4b27-b68b-404a33db747e"
+				}],
+				"contexts": [],
+				"title": "howl for me",
+				"type": "INTENT",
+				"stepId": "c2defa40-ad2d-4bf7-a710-c77edba7bb3d"
+			}],
+			"group": "Default"
+		}],
+		"entities": [],
+		"intents": [{
+			"intentId": "02f9e179-3044-43c6-b3e1-a1b3dcff4a60",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "Howl",
+			"examples": [{
+				"query": "howl for me",
+				"entities": []
+			}, {
+				"query": "howl",
+				"entities": []
+			}, {
+				"query": "howl for me baby",
+				"entities": []
+			}, {
+				"query": "give me a howl",
+				"entities": []
+			}, {
+				"query": "holler for me",
+				"entities": []
+			}, {
+				"query": "make some noise",
+				"entities": []
+			}, {
+				"query": "what sound does a werewolf make",
+				"entities": []
+			}, {
+				"query": "cry wolf",
+				"entities": []
+			}, {
+				"query": "cry",
+				"entities": []
+			}],
+			"accuracy": 38.46
+		}, {
+			"intentId": "4b31f5d7-931f-4077-9655-2e615c06e0b8",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "Untitled intent 1",
+			"examples": [{
+				"query": "yes",
+				"entities": []
+			}],
+			"accuracy": 7.69
+		}, {
+			"intentId": "428a5ec8-1c63-4644-bf6f-846fff079192",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "Untitled intent 1",
+			"examples": [{
+				"query": "no",
+				"entities": []
+			}],
+			"accuracy": 7.69
+		}, {
+			"intentId": "757b41bf-dcd6-42c5-9c49-7ca6f3ec35fc",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "explain",
+			"examples": [{
+				"query": "explain",
+				"entities": []
+			}, {
+				"query": "explain the game",
+				"entities": []
+			}, {
+				"query": "tell me the rules",
+				"entities": []
+			}, {
+				"query": "how does it work?",
+				"entities": []
+			}, {
+				"query": "what is werewolf",
+				"entities": []
+			}, {
+				"query": "how does this work",
+				"entities": []
+			}, {
+				"query": "i dont understand the rules",
+				"entities": []
+			}, {
+				"query": "how does this game work",
+				"entities": []
+			}, {
+				"query": "what are the game rules",
+				"entities": []
+			}, {
+				"query": "tell me about the rules please",
+				"entities": []
+			}, {
+				"query": "help",
+				"entities": []
+			}, {
+				"query": "to help",
+				"entities": []
+			}],
+			"accuracy": 38.46
+		}, {
+			"intentId": "2423c936-0653-45e0-b29f-8aedd0fcc33e",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "new game",
+			"examples": [{
+				"query": "start game",
+				"entities": []
+			}, {
+				"query": "play the game",
+				"entities": []
+			}, {
+				"query": "start",
+				"entities": []
+			}, {
+				"query": "play",
+				"entities": []
+			}, {
+				"query": "new game",
+				"entities": []
+			}, {
+				"query": "begin a game",
+				"entities": []
+			}, {
+				"query": "start right away",
+				"entities": []
+			}, {
+				"query": "I want to start right away",
+				"entities": []
+			}, {
+				"query": "I d like to play the game",
+				"entities": []
+			}, {
+				"query": "no start the game",
+				"entities": []
+			}, {
+				"query": "yes start the game",
+				"entities": []
+			}, {
+				"query": "just begin already",
+				"entities": []
+			}, {
+				"query": "new round",
+				"entities": []
+			}, {
+				"query": "for new round",
+				"entities": []
+			}, {
+				"query": "start a new round",
+				"entities": []
+			}],
+			"accuracy": 46.15
+		}, {
+			"intentId": "system.noise",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"title": "unknown",
+			"examples": [{
+				"query": "this often tends to get me out of track and i easily loose the story line",
+				"entities": []
+			}, {
+				"query": "therefore i often have to force myself to ignore the words i do n't understand and concentrate on the story",
+				"entities": []
+			}, {
+				"query": "i sometimes have some problems to get started with a book , but once i have got into the story i think i am a pretty fast reader",
+				"entities": []
+			}, {
+				"query": "Alligators can't climb walls, that's clearly a lizard",
+				"entities": []
+			}, {
+				"query": "You know what they say about jet fuel",
+				"entities": []
+			}, {
+				"query": "Dingle as a first level boss, without any speed boosts, is worse than Haunt",
+				"entities": []
+			}, {
+				"query": "Careful, oil leaks out of plastic sometimes",
+				"entities": []
+			}, {
+				"query": "Why can't we have a place with neither :'(",
+				"entities": []
+			}, {
+				"query": "my dog would still be there, stick in mouth?",
+				"entities": []
+			}, {
+				"query": "For the longest time I actually thought his real name was Ron Swanson...",
+				"entities": []
+			}, {
+				"query": "They should make a video called \"let's drink the stuff under the sink\"",
+				"entities": []
+			}, {
+				"query": "If it were actually \"up north\" it wouldn't be such a joke",
+				"entities": []
+			}, {
+				"query": "Why wage war when you can wage flowers?",
+				"entities": []
+			}, {
+				"query": "Liar! I drew the original. On paper, of course",
+				"entities": []
+			}, {
+				"query": "To be fair, ballpoint pens didn't exist yet",
+				"entities": []
+			}],
+			"accuracy": 46.15
+		}],
+		"actions": [{
+			"actionId": "000019ee-09f1-40b1-b097-e8b8667afe3e",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TRIGGER",
+			"payload": {
+				"eventName": "Game"
+			}
+		}, {
+			"actionId": "060a5700-7219-4a9b-8e20-8b3faf2666e4",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["Troublemaker, close your eyes."],
+				"fallback": "Troublemaker, close your eyes.<break time=\"2s\"/> "
+			}
+		}, {
+			"actionId": "09ed828e-222e-4fd3-abcf-1860d9022ac8",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["Werewolves, close your eyes. Seer, wake up.\nYou may look at another player’s card or two\nof the center cards."],
+				"quickReplies": [],
+				"fallback": "Werewolves, close your eyes. <break time=\"2s\"/> Seer, wake up.\nYou may look at another player’s card or two\nof the center cards.\n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_01.mp3'/>\n<break time=\"3s\"/>\n\n"
+			}
+		}, {
+			"actionId": "0aa28c11-60a5-4f02-812f-09d05e963f3e",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["Robber, close your eyes. Troublemaker,\nwake up. You may exchange cards between\ntwo other players."],
+				"fallback": "Robber, close your eyes. <break time=\"2s\"/>Troublemaker,\nwake up. You may exchange cards between\ntwo other players. \n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3'/>\n<break time=\"3s\"/>"
+			}
+		}, {
+			"actionId": "1b6551a9-77d1-458b-a4c3-4c63493913c4",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["All right, just call me again when you are ready!"],
+				"quickReplies": []
+			}
+		}, {
+			"actionId": "2bd4251e-2095-467b-9515-5022180b3874",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "AUDIO",
+			"payload": {
+				"response": {
+					"delay": 0,
+					"payload": {
+						"url": "https://www.music-note.jp/bgm/mp3/b_horror.mp3",
+						"title": "ambient"
+					},
+					"type": "audio"
+				},
+				"fallback": "ambient"
+			}
+		}, {
+			"actionId": "340fa14d-ceb8-4c20-bcff-132a4eea1c6b",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TRIGGER",
+			"payload": {
+				"eventName": "Game"
+			}
+		}, {
+			"actionId": "3542603d-544b-495a-a772-7e90477032ce",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["I will be your announcer. Are you ready to start?"],
+				"quickReplies": []
+			}
+		}, {
+			"actionId": "4652447d-7d6b-4d94-84c1-aba071193be3",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["I don't know that one!"]
+			}
+		}, {
+			"actionId": "4aed9424-b825-44d6-8d16-4801ab071d3a",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["Okay! let's start then!"],
+				"quickReplies": []
+			}
+		}, {
+			"actionId": "694e87b5-1b85-49b8-be06-28ca542e0cf2",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["Seer, close your eyes. Robber, wake up.\nYou may exchange your card with another\nplayer’s card, and then view your new card."],
+				"fallback": "Seer, close your eyes. <break time=\"2s\"/> Robber, wake up.\nYou may exchange your card with another\nplayer’s card, and then view your new card.\n<break time=\"3s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3'/>\n<break time=\"3s\"/>"
+			}
+		}, {
+			"actionId": "7abef461-d30b-48e0-92e4-dda130c06958",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["Everyone, close your eyes."],
+				"quickReplies": [],
+				"fallback": "Everyone, close your eyes.<break time=\"2s\"/>"
+			}
+		}, {
+			"actionId": "7bd3e26b-fd65-4933-b4ee-e5993c40e405",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"texts": ["Werewolves, now wake up and look for the  other\nwerewolves."],
+				"quickReplies": [],
+				"delay": 0,
+				"fallback": "Werewolves, now wake up and look for the other werewolves.\n<break time=\"5s\"/>\n<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_wolf_young_howl_01.mp3'/>\n\n"
+			}
+		}, {
+			"actionId": "94680136-f4d7-4279-af88-ecd8da476b25",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"fallback": "In <emphasis>One Night Ultimate Werewolf</emphasis>, each player takes on the role of a Villager, a Werewolf, or a special character.",
+				"texts": ["In One Night Ultimate Werewolf, each player takes on the role of a Villager, a Werewolf, or a special character."],
+				"quickReplies": [],
+				"delay": 0
+			}
+		}, {
+			"actionId": "a72d2c65-a780-4b4a-9dea-d1aff51681ba",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "AUDIO",
+			"payload": {
+				"fallback": "ambient 2",
+				"response": {
+					"type": "audio",
+					"payload": {
+						"title": "ambient 2",
+						"url": "https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_02.mp3"
+					},
+					"delay": 0
+				}
+			}
+		}, {
+			"actionId": "a8ed9c15-2724-4bff-a6df-da1dbfb42af2",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TRIGGER",
+			"payload": {
+				"eventName": "Game"
+			}
+		}, {
+			"actionId": "c076ccb1-b1bf-46e8-9c74-4885bb935e09",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"fallback": "It’s <emphasis level=\"strong\">your</emphasis> job to figure out who the Werewolves are and to kill at least one of them in order to win.",
+				"quickReplies": [],
+				"texts": ["It’s your job to figure out who the Werewolves are and to kill at least one of them in order to win."]
+			}
+		}, {
+			"actionId": "c33c1f32-28c9-40d1-a1ec-67cc6a21949b",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "RESET",
+			"payload": {
+				"behaviour": "RESET_ALL",
+				"params": []
+			}
+		}, {
+			"actionId": "c6729809-d08a-41ee-8411-2ba2a24c8692",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "AUDIO",
+			"payload": {
+				"response": {
+					"delay": 0,
+					"payload": {
+						"url": "https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3",
+						"title": "Example title"
+					},
+					"type": "audio"
+				},
+				"fallback": "Example title"
+			}
+		}, {
+			"actionId": "c879f968-f2c5-47cb-b607-5ad337cb434d",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "AUDIO",
+			"payload": {
+				"fallback": "ambient",
+				"response": {
+					"type": "audio",
+					"payload": {
+						"title": "ambient",
+						"url": "https://s3.amazonaws.com/ask-soundlibrary/nature/amzn_sfx_thunder_rumble_01.mp3"
+					},
+					"delay": 0
+				}
+			}
+		}, {
+			"actionId": "ce5d6357-267b-4464-8a36-93c4ba072cc7",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"fallback": "Welcome to <emphasis>One Night Ultimate Werewolf</emphasis> for Alexa. Would you like to hear the rules or do you want to start right away?",
+				"texts": ["Welcome to <emphasis>One Night Ultimate Werewolf</emphasis> for Alexa. Would you like to hear the rules or do you want to start right away?"],
+				"quickReplies": []
+			}
+		}, {
+			"actionId": "d0473869-121d-4b27-b68b-404a33db747e",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["aw aw aw awoooo"]
+			}
+		}, {
+			"actionId": "ed723b7a-0a98-42be-9cc3-8a040fb1249a",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TRIGGER",
+			"payload": {
+				"eventName": "explain"
+			}
+		}, {
+			"actionId": "f8cb80c8-943e-4300-b046-32d96eb592e1",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["Everyone, Wake up!? Now, discuss among yourselves who the werewolves are. After 2 minutes, everyone picks their werewolf. Good luck!"]
+			}
+		}, {
+			"actionId": "fe48b39b-1336-4cd4-a5d8-bed636f7f013",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["Unless you’ve become a Werewolf yourself!"]
+			}
+		}, {
+			"actionId": "ffe6d320-8706-4124-a1bd-81307d118d0e",
+			"brainId": "3bebeb5d-e4d5-4206-825e-7d1ac23190b5",
+			"type": "TEXT",
+			"payload": {
+				"quickReplies": [],
+				"texts": ["blub"]
+			}
+		}]
+	}],
+	"integrations": [{
+		"integrationId": "0cec8e77-0944-45ae-8271-48b9445857d3",
+		"integrationName": "function",
+		"actionName": "Takeover",
+		"cloudCode": "(function() {\n  // Notify dashboard users to take over\n  // the conversation\n  toolbelt.takeover()\n})",
+		"title": "Takeover",
+		"description": "Cloud code",
+		"eventTypes": null
+	}, {
+		"integrationId": "492e02c1-a7bc-4737-a014-532e2a2966eb",
+		"integrationName": "function",
+		"actionName": "Pause Bot",
+		"cloudCode": "(function() {\n  // Disable the bot for a number of minutes\n  // check the brain settings\n  toolbelt.pauseBot()\n})",
+		"title": "Pause Bot",
+		"description": "Cloud code",
+		"eventTypes": null
+	}, {
+		"integrationId": "7ac539a6-7b8b-4f16-8dad-23b345f848f2",
+		"integrationName": "function",
+		"actionName": "Send takeover e-mail",
+		"cloudCode": "(function() {\n  // Send an e-mail to notify a conversation\n  // needs to be taken over\n  toolbelt.email({\n    to: 'sander+demo@flow.ai',\n    template: 'takeover'\n  })\n})",
+		"title": "Send takeover e-mail",
+		"description": "Cloud code",
+		"eventTypes": null
+	}]
+}
